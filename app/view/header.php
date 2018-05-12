@@ -16,7 +16,7 @@
     </style>
     <body>
 
-        <nav class="nav navbar-default navbar-fixed-top">
+        <nav class="nav navbar-default">
             <div class="navbar-header">
                 <a href="#" class="navbar-brand">LOGO</a>
                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
