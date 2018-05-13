@@ -1,6 +1,6 @@
 </body>
 <div class="row col-lg-12">
-    <ul class="breadcrumb text-center navbar-fixed-bottom">
+    <ul class="breadcrumb text-center">
         <li>
             <a href="#">Power by Fiendish</a>
         </li>
