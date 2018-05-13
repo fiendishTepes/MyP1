@@ -2,7 +2,7 @@
 
 class controller  
 {
-    public function model($model = '') 
+    public function model($model = '',$data = []) 
     {
         $num = count($r = explode('/', $model));
         if ($num > 1) {
@@ -13,7 +13,7 @@ class controller
             return new $model;
         }
     }
-    public function view($view, $data = []) 
+    public function view($view = '', $data = []) 
     {
         include VIEW . $view . '.php';
     }

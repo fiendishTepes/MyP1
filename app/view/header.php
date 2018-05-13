@@ -9,14 +9,14 @@
         .fien{
             background-color: red;
         }
-        .sector{
+        .area{
             height: 20px;
             widows: 100%;
         }
     </style>
     <body>
 
-        <nav class="nav navbar-default">
+        <nav class="nav navbar-default navbar-fixed-top">
             <div class="navbar-header">
                 <a href="#" class="navbar-brand">LOGO</a>
                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
@@ -30,19 +30,19 @@
                 <div class="collapse navbar-collapse" id="mydropdown">
                     <ul class="nav navbar-nav">
                         <li <?php echo ($action[2] . '/' . $action[3] == 'home/index' ? 'class=active' : '') ?>>
-                            <a href="/omsin2/home/index">HOME</a>
+                            <a href="/<?php echo DOMAIN; ?>/home/index">HOME</a>
                         </li>
                         <li <?php echo ($action[2] . '/' . $action[3] == 'product/index' ? 'class=active' : '') ?>>
-                            <a href="/omsin2/product/index">PRODUCT</a>
+                            <a href="/<?php echo DOMAIN; ?>/product/index">PRODUCT</a>
                         </li>
                         <li <?php echo ($action[2] . '/' . $action[3] == 'weboard/index' ? 'class=active' : '') ?>>
-                            <a href="/omsin2/weboard/index">WEBOARD</a>
+                            <a href="/<?php echo DOMAIN; ?>/weboard/index">WEBOARD</a>
                         </li>
                         <li <?php echo ($action[2] . '/' . $action[3] == 'about/contact' ? 'class=active' : '') ?>>
-                            <a href="/omsin2/about/contact">CONTACT</a>
+                            <a href="/<?php echo DOMAIN; ?>/about/contact">CONTACT</a>
                         </li>
                         <li <?php echo ($action[2] . '/' . $action[3] == 'about/about' ? 'class=active' : '') ?>>
-                            <a href="/omsin2/about/about">ABOUT</a>
+                            <a href="/<?php echo DOMAIN; ?>/about/about">ABOUT</a>
                         </li>
                         <li>
                             <a class="dropdown-toggle" id="dropdowns1" data-toggle="dropdown" href="#">DROPDOWN <span class="caret"></span></a>
@@ -66,6 +66,7 @@
             </div>
 
         </nav>
-        <div class="sector"></div>
-        <div class="sector"></div
+        
+        <div class="area"></div>
+        <div class="area"></div
         <?php include CUSTOM.'slider.php'; ?>

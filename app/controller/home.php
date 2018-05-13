@@ -3,8 +3,7 @@ class home extends controller
 {
     public function index()
     {
-        echo 'INDEX2';
-        $this->view('test/test');
+        $this->view('home/index',$data=array('ss'=>$action));
     }
     public function about()
     {
