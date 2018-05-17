@@ -15,7 +15,7 @@
     <body>
         <nav class="navbar navbar-default">
             <div class="navbar-header">
-                <a href="#" class="navbar-brand">LOGO</a>
+                <a href="/<?php echo DOMAIN ?>" class="navbar-brand">LOGO</a>
                 <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
