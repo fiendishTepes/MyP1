@@ -47,18 +47,6 @@ class Application {
 //            
 //        }
 //    }
-//    protected function getUrl()
-//    {
-//        $require = $_SERVER['REQUEST_URI'];
-//        if(!empty($require))
-//        {
-//           $url = explode('/', trim($require));
-//           $this->controller = $url[2];
-//           $this->action = $url[3];
-//           unset($url[2],$url[3]);
-//           $this->prams = !empty($url) ? array_values($url) : [];
-//        }
-//    }
     protected function getUrl()
     {
         $require = $_SERVER['REQUEST_URI'];

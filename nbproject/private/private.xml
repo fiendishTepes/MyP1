@@ -13,11 +13,14 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/AppServ/www/MyP1/public/index.php</file>
-            <file>file:/C:/AppServ/www/MyP1/app/controller/member.php</file>
             <file>file:/C:/AppServ/www/MyP1/app/view/header.php</file>
+            <file>file:/C:/AppServ/www/MyP1/app/controller/memberController.php</file>
             <file>file:/C:/AppServ/www/MyP1/app/model/home/index.php</file>
             <file>file:/C:/AppServ/www/MyP1/app/controller/adminController.php</file>
+            <file>file:/C:/AppServ/www/MyP1/app/controller/homeController.php</file>
+            <file>file:/C:/AppServ/www/MyP1/app/core/Application.php</file>
             <file>file:/C:/AppServ/www/MyP1/app/view/admin/dashboard.php</file>
+            <file>file:/C:/AppServ/www/MyP1/app/view/home/index.php</file>
         </group>
     </open-files>
 </project-private>
