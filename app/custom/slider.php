@@ -18,37 +18,37 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="http://placehold.it/1200x400">
+                        <img class="img-responsive" src="http://placehold.it/1200x400">
                     </div>
                     <div class="item ">
-                        <img src="http://placehold.it/1200x400">
+                        <img class="img-responsive" src="http://placehold.it/1200x400">
                     </div>
                     <div class="item ">
-                        <img src="http://placehold.it/1200x400">
+                        <img class="img-responsive" src="http://placehold.it/1200x400">
                     </div>
                     <div class="item ">
-                        <img src="http://placehold.it/1200x400">
+                        <img class="img-responsive" src="http://placehold.it/1200x400">
                     </div>
                     <div class="item ">
-                        <img src="http://placehold.it/1200x400">
+                        <img class="img-responsive" src="http://placehold.it/1200x400">
                     </div>
                     <div class="item ">
-                        <img src="http://placehold.it/1200x400">
+                        <img class="img-responsive" src="http://placehold.it/1200x400">
                     </div>
                     <div class="item ">
-                        <img src="http://placehold.it/1200x400">
+                        <img class="img-responsive" src="http://placehold.it/1200x400">
                     </div>
                     <div class="item ">
-                        <img src="http://placehold.it/1200x400">
+                        <img class="img-responsive" src="http://placehold.it/1200x400">
                     </div>
                     <div class="item ">
-                        <img src="http://placehold.it/1200x400">
+                        <img class="img-responsive" src="http://placehold.it/1200x400">
                     </div>
                     <div class="item ">
-                        <img src="http://placehold.it/1200x400">
+                        <img class="img-responsive" src="http://placehold.it/1200x400">
                     </div>
                     <div class="item ">
-                        <img src="http://placehold.it/1200x400">
+                        <img class="img-responsive" src="http://placehold.it/1200x400">
                     </div>
                     
                     <a href="#mySlide" class="left carousel-control" rol="button" data-slide="prev">

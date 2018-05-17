@@ -1,11 +1,11 @@
 </body>
-<div class="row col-lg-12">
+<div class="row">
     <ul class="breadcrumb text-center">
         <li>
             <a href="#">Power by Fiendish</a>
         </li>
         <li>
-            <a href="mailto:fiendish.tepes@hgmail.com">fiendish.tepes@hgmail.com</a>
+            <a href="mailto:fiendish.tepes@gmail.com">fiendish.tepes@gmail.com</a>
         </li>
         <li>
             <a href="http://www.facebook.com/I.AM.Fiendish">Facebook</a>

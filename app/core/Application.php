@@ -3,12 +3,12 @@
 class Application {
 
     protected $controller = 'homeController'; //Class
-    protected $action = 'index'; //Method
+    protected $action = 'indexAction'; //Method
     protected $prams = [];
     
     public function __construct()
     {
-        $this->getUrl();
+        $this->getUrl2();
         if(file_exists(CONTROLLER . $this->controller.'.php'))
         {
             $this->controller = new $this->controller;
@@ -58,6 +58,19 @@ class Application {
            $this->prams = !empty($url) ? array_values($url) : [];
         }
     }
+    protected function getUrl2()
+    {
+        $require = $_SERVER['REQUEST_URI'];
+        if(!empty($require))
+        {
+           $url = explode('/', trim($require));
+           $this->controller = isset($url[2]) ? $url[2] . 'Controller' : 'homeController';
+            $this->action = isset($url[3]) ? $url[3] . 'Action' : 'indexAction';
+           unset($url[2],$url[3]);
+           $this->prams = !empty($url) ? array_values($url) : [];
+        }
+    }
+    
     public function getAction()
     {
         $require = $_SERVER['REQUEST_URI'];
@@ -66,6 +79,12 @@ class Application {
            return explode('/', trim($require));
          
         }
+    }
+    
+    public function myDump($data)
+    {
+        echo '<pre>';
+        print_r($data);
     }
 
 }
