@@ -1,1 +1,1 @@
-<?php include CUSTOM . 'slider.php'; ?>
+<h1>HOME/INDES</h1>

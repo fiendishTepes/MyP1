@@ -23,7 +23,7 @@ $modeules = [ROOT,APP,CORE,CONTROLLER,MODEL];
 set_include_path(get_include_path() . PATH_SEPARATOR . implode( PATH_SEPARATOR, $modeules));
 spl_autoload_register('spl_autoload',false); //ใช้โหลดไฟล์ที่ต้องใช้ แบบ งง 
 
-include VIEW . 'header.php';
+include VIEW . 'header_admin.php';
 new Application;
 include VIEW . 'footer.php';
 

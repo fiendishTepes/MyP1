@@ -26,19 +26,19 @@
 
                 <div class="collapse navbar-collapse" id="mydropdown">
                     <ul class="nav navbar-nav">
-                        <li <?php echo ($action[2] . '/' . $action[3] == 'home/index' ? 'class=active' : '') ?>>
+                        <li <?php echo ($action[3] . '/' . $action[4] == 'home/index' ? 'class=active' : '') ?>>
                             <a href="/<?php echo DOMAIN; ?>/home/index">HOME</a>
                         </li>
-                        <li <?php echo ($action[2] . '/' . $action[3] == 'product/index' ? 'class=active' : '') ?>>
+                        <li <?php echo ($action[3] . '/' . $action[4] == 'product/index' ? 'class=active' : '') ?>>
                             <a href="/<?php echo DOMAIN; ?>/product/index">PRODUCT</a>
                         </li>
-                        <li <?php echo ($action[2] . '/' . $action[3] == 'weboard/index' ? 'class=active' : '') ?>>
+                        <li <?php echo ($action[3] . '/' . $action[4] == 'weboard/index' ? 'class=active' : '') ?>>
                             <a href="/<?php echo DOMAIN; ?>/weboard/index">WEBOARD</a>
                         </li>
-                        <li <?php echo ($action[2] . '/' . $action[3] == 'about/contact' ? 'class=active' : '') ?>>
+                        <li <?php echo ($action[3] . '/' . $action[4] == 'about/contact' ? 'class=active' : '') ?>>
                             <a href="/<?php echo DOMAIN; ?>/about/contact">CONTACT</a>
                         </li>
-                        <li <?php echo ($action[2] . '/' . $action[3] == 'about/about' ? 'class=active' : '') ?>>
+                        <li <?php echo ($action[3] . '/' . $action[4] == 'about/about' ? 'class=active' : '') ?>>
                             <a href="/<?php echo DOMAIN; ?>/about/about">ABOUT</a>
                         </li>
                         <li>

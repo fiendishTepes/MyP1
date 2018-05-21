@@ -53,9 +53,9 @@ class Application {
         if(!empty($require))
         {
            $url = explode('/', trim($require));
-           $this->controller = !empty($url[2]) ? $url[2] . 'Controller' : 'homeController';
-            $this->action = isset($url[3]) ? $url[3] . 'Action' : 'indexAction';
-           unset($url[2],$url[3]);
+           $this->controller = !empty($url[3]) ? $url[3] . 'Controller' : 'homeController';
+            $this->action = isset($url[4]) ? $url[4] . 'Action' : 'indexAction';
+           unset($url[3],$url[4]);
            $this->prams = !empty($url) ? array_values($url) : [];
         }
     }
