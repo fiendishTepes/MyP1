@@ -18,6 +18,6 @@ class member
 	}
 	public function register($data = [])
 	{
-		//Application::myDump($data);
+		Application::myDump($data);
 	}
 }

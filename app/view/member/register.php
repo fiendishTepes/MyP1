@@ -6,45 +6,43 @@
 					<label>
 						First Name:
 					</label>
-					<input class="form-control" type="text" name="reg[fName]" id="reg[fName]">
+					<input class="form-control" placeholder="First Name" type="text" name="reg[fName]" id="reg[fName]">
 				</div>
 				<div class="form-group">
 					<label>
 						Last Name:
 					</label>
-					<input class="form-control" type="text" name="reg[lName]" id="reg[lName]">
+					<input class="form-control" placeholder="Last Name" type="text" name="reg[lName]" id="reg[lName]">
 				</div>
 				<div class="form-group">
 					<label>
 						Address:
 					</label>
-					<textarea class="form-control" name="reg[address]" id="reg[address]">
-
-					</textarea>
+					<textarea class="form-control" placeholder="Address" name="reg[address]" id="reg[address]"></textarea>
 				</div>
 				<div class="form-group">
 					<label>
 						E-Mail:
 					</label>
-					<input class="form-control" type="text" name="reg[mail]" id="reg[lmail]">
+					<input class="form-control" placeholder="E-Mail" type="text" name="reg[mail]" id="reg[lmail]">
 				</div>
 				<div class="form-group">
 					<label>
 						Phone:
 					</label>
-					<input class="form-control" type="number" name="reg[phone]" id="reg[phone]">
+					<input class="form-control" placeholder="Phone" type="number" name="reg[phone]" id="reg[phone]">
 				</div>
 				<div class="form-group">
 					<label>
 						UserName:
 					</label>
-					<input class="form-control" type="text" name="reg[username]" id="reg[username]">
+					<input class="form-control" placeholder="Username" type="text" name="reg[username]" id="reg[username]">
 				</div>
 				<div class="form-group">
 					<label>
 						Password:
 					</label>
-					<input class="form-control" type="text" name="reg[password]" id="reg[password]">
+					<input class="form-control" placeholder="Password" type="text" name="reg[password]" id="reg[password]">
 				</div>
 				<div class="form-group center-block ">
 					<button type="submit" class="btn btn-info">REGISTER</button>
